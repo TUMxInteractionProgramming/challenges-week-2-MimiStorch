@@ -13,7 +13,7 @@
 
 body {
     /* #2 #colorful #background */
-    background-color: #5F5F5F5;
+    background-color: #F5F5F5;
 }
 
 * {
@@ -23,12 +23,6 @@ body {
     padding: 0;
 }
 
-
-button {
-    /* #2 #colourful #plusfive */
-    background-color: #CDDC39;
-    color: black;
-}
 
 button,
 strong {
@@ -52,7 +46,78 @@ h2 {
     background-color: white;
 }
 
+ul li.selected {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5; 
+}
+
+li {
+    font-size: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+li img {
+    /* #4 #middle vertical alignment of icons in the #channels list */
+    vertical-align: middle;
+}
 
 /*Tab bar*/
 
+#tab-bar button {
+     /* #2 #colourful #plusfive */
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+}
+
+#tab-bar button img {
+    display: block;
+    margin: 0 auto 4px auto;
+}
+
+#tab-bar button.selected {
+    color: #3F51B5;
+    border-bottom: 4px solid #3F51B5;
+}
+
+
 /*Messages*/
+
+.message{
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+#own-message{
+    margin-left: 17.5%;
+}
+
+.meta {
+    font-size: medium;
+}
+
+.message p {
+    background-color: white;
+    padding: 16px;
+
+}
+
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39; 
+    color: black;
+    
+}
+
+.message em {
+    font-size: larger;
+    font-style: normal;
+}
+
